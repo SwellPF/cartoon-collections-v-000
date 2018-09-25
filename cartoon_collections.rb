@@ -8,8 +8,8 @@ def summon_captain_planet(array)
   array.collect{ |element| element.capitalize+"!"}
 end
 
-def long_planeteer_calls(calls)
-  return TRUE if calls.each > 4 
+def long_planeteer_calls(calls_long)
+  return TRUE if calls_long.each.length > 4 
 end
 
 def find_the_cheese # code an argument here
