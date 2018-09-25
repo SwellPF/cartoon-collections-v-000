@@ -25,4 +25,5 @@ def find_the_cheese(snacks)
       found_cheeses << snack
     end
   end
+  return found_cheeses
 end
